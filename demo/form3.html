@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>เว็ปไซต์สมัครงาน</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+        <link href='../src/vendor/normalize.css/normalize.css' rel='stylesheet'>
+        <link href='../src/vendor/fontawesome/css/font-awesome.min.css' rel='stylesheet'>
+        <link href="../dist/vertical-responsive-menu.min.css" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" href="public/stylesheets/main.css">
+        <link rel="stylesheet" href="public/stylesheets/style-table.css">
+        <link rel="stylesheet" href="public/stylesheets/validationEngine.jquery.css" />
+
+
+</head>
+
+<!-- bootstrap -->
+<script src="public/javascripts/jquery-3.3.1.min"></script>
+<script src="public/javascripts/bootstrap.min.js"></script>
+<script src="public/javascripts/bootstrap.min.js.map"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js.map"></script>
+
+
+
+
+
+<script src="public/javascripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="public/javascripts/jquery.validationEngine-th.js" type="text/javascript" charset="utf-8"></script>
+<script src="public/javascripts/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+<script src="../dist/vertical-responsive-menu.min.js"></script>
+
+
+<script src="public/javascripts/jsTable.js"></script>
+
+
+
+
+
+
+<script>
+        $(document).ready(function () {
+                /*! Fades in page on load */
+                $('body').css('display', 'none');
+                $('body').fadeIn(600);
+              });
+            </script>
+
+<script>
+        $(document).ready(function(){
+        $("#Form1,#Form2,#Form3,#Form4,#Form5,#Form6,#Form9,#Form10").validationEngine();
+         });
+        </script>
+
+<style>
+        @font-face {
+                  font-family: 'Athiti';
+                  src: url(public/font/Athiti-semibold.ttf);
+              }
+              
+              </style>
+
+
+<body>
+        <header class="header clearfix">
+                <button type="button" id="toggleMenu" class="toggle_menu">
+                        <i class="fa fa-bars"></i>
+                </button>
+                <h1>เว็ปไซต์สมัครงาน</h1>
+        </header>
+
+
+
+
+        <nav class="vertical_nav">
+                <ul id="js-menu" class="menu">
+
+                        <li class="menu--item">
+                                <a href="index.html" class="menu--link">
+                                        <img src="public/stylesheets/png/009-one.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">ประวัติส่วนตัว</strong>
+
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form2.html" class="menu--link">
+                                        <img src="public/stylesheets/png/008-two.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">รายละเอียดครอบครัว</strong>
+
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form3.html" class="menu--link">
+                                        <img src="public/stylesheets/png/007-three.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">ประวัติการศึกษา</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form4.html" class="menu--link">
+                                        <img src="public/stylesheets/png/006-four.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">ประวัติการทำงาน/ประวัตการฝึกอบรม</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form5.html" class="menu--link" id="nav-form5">
+                                        <img src="public/stylesheets/png/005-five.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">ความสามในการใช้ภาษาต่างประเทศ <br> และคอมพิวเตอร์</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form6.html" class="menu--link">
+                                        <img src="public/stylesheets/png/004-six.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">บุคคลที่ติดต่อได้โดยไม่ใช่ญาติพี่น้อง</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form9.html" class="menu--link">
+                                        <img src="public/stylesheets/png/003-seven.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">สุขภาพ</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form10.html" class="menu--link">
+                                        <img src="public/stylesheets/png/002-eight.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">รายละเอียดอื่นๆ</strong>
+                                </a>
+                        </li>
+                </ul>
+
+                <button id="collapse_menu" class="collapse_menu">
+                        <i class="collapse_menu--icon  fa fa-fw"></i>
+                        <span class="collapse_menu--label">ซ่อนแถบเมนู</span>
+                </button>
+        </nav>
+
+
+        <div class="wrapper">
+                <div class="container_PA">
+                        <form method="POST" id="form3" class="needs-validation" novalidate>
+
+                                <fieldset>
+
+                                        <div class="table100 ver5 m-b-110 ">
+                                                <table data-vertable="ver5">
+                                                        <thead>
+                                                                <tr class="row100 head head1">
+                                                                        <th class="column100 column1 " data-column="column1">ประวัติการศึกษา</th>
+                                                                </tr>
+                                                        </thead>
+                                                </table>
+                                        </div>
+
+
+
+                                        <div class="table100 ver5">
+                                                <table class="flip-scroll responsive-table" data-vertable="ver5">
+                                                        <thead>
+                                                                <tr class="row100">
+                                                                        <th scope="col">ระดับการศึกษา</th>
+                                                                        <th scope="col">ชื่อสถานศึกษา</th>
+                                                                        <th scope="col">วุฒิที่ได้รับ</th>
+                                                                        <th scope="col">สาขาวิชา</th>
+                                                                        <th scope="col">ปี
+                                                                                พ.ศ.
+                                                                                ที่เริ่มศึกษา</th>
+                                                                        <th scope="col">ปี
+                                                                                พ.ศ.
+                                                                                ที่สำเร็จ</th>
+                                                                        <th scope="col">เกรดเฉลี่ย</th>
+
+                                                                </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr class="row100">
+                                                                        <td class="column100 column1" data-column="column1">ประถมศึกษา</td>
+                                                                        <td><input name="elementary_sch" id="elementary_sch"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="degree_element" id="degree_element"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="field_element" id="field_element"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="begin_element" id="begin_element"
+                                                                                        type="number" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="end_element" id="end_element"
+                                                                                        type="number" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                        <td><input name="grade_element" id="grade_element"
+                                                                                        type="number" class="column100 column7 form-control"
+                                                                                        data-column="column7"></td>
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td class=" column1 column100" data-column="column1">มัธยมศึกษา</td>
+                                                                        <td><input name="secondary_sch" id="secondary_sch"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="degree_secon" id="degree_secon"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="field_secon" id="field_secon"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="begin_secon" id="begin_secon"
+                                                                                        type="number" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="end_secon" id="end_secon" type="number"
+                                                                                        class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                        <td><input name="grade_secon" id="grade_secon"
+                                                                                        type="number" class="column100 column7 form-control"
+                                                                                        data-column="column7"></td>
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td class=" column1 column100" data-column="column1">มัธยมปลาย</td>
+                                                                        <td><input name="hight_sch" id="hight_sch" type="text"
+                                                                                        class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="degree_hight" id="degree_hight"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="field_hight" id="field_hight"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="begin_hight" id="begin_hight"
+                                                                                        type="number" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="end_hight" id="end_hight" type="number"
+                                                                                        class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                        <td><input name="grade_hight" id="grade_hight"
+                                                                                        type="number" class="column100 column7 form-control"
+                                                                                        data-column="column7"></td>
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td class=" column1 column100" data-column="column1">อาชีวะศึกษา(ปวช.)</td>
+                                                                        <td><input name="voca_sch" id="voca_sch" type="text"
+                                                                                        class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="degree_voca" id="degree_voca"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="field_voca" id="field_voca"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="begin_voca" id="begin_voca"
+                                                                                        type="number" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="end_voca" id="end_voca" type="number"
+                                                                                        class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                        <td><input name="grade_voca" id="grade_voca"
+                                                                                        type="number" class="column100 column7 form-control"
+                                                                                        data-column="column7"></td>
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td class=" column1 column100" data-column="column1">อาชีวะศึกษา(ปวส.)</td>
+                                                                        <td><input name="hight_voca_sch" id="hight_voca_sch"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="degree_hight_voca" id="degree_hight_voca"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="field_hight_voca" id="field_hight_voca"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="begin_hight_voca" id="begin_hight_voca"
+                                                                                        type="number" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="end_hight_voca" id="end_hight_voca"
+                                                                                        type="number" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                        <td><input name="grade_hight_voca" id="grade_hight_voca"
+                                                                                        type="number" class="column100 column7 form-control"
+                                                                                        data-column="column7"></td>
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td class=" column1 column100" data-column="column1">ปริญญาตรี</td>
+                                                                        <td><input name="bachelor" id="bachelor" type="text"
+                                                                                        class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="degree_bachelor" id="degree_bachelor"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="field_bachelor" id="field_bachelor"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="begin_bachelor" id="begin_bachelor"
+                                                                                        type="number" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="end_bachelor" id="end_bachelor"
+                                                                                        type="number" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                        <td><input name="grade_bachelor" id="grade_bachelor"
+                                                                                        type="number" class="column100 column7 form-control"
+                                                                                        data-column="column7"></td>
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td class=" column1 column100" data-column="column1">ปริญญาโท</td>
+                                                                        <td><input name="master" id="master" type="text"
+                                                                                        class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="degree_master" id="degree_master"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="field_master" id="field_master"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="begin_master" id="begin_master"
+                                                                                        type="number" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="end_master" id="end_master"
+                                                                                        type="number" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                        <td><input name="grade_master" id="grade_master"
+                                                                                        type="number" class="column100 column7 form-control"
+                                                                                        data-column="column7"></td>
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td class=" column1 column100" data-column="column1">อื่นๆ</td>
+                                                                        <td><input name="other_sch" id="other_sch" type="text"
+                                                                                        class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="degree_other" id="degree_other"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="field_other" id="field_other"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="begin_other" id="begin_other"
+                                                                                        type="number" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="end_other" id="end_other" type="number"
+                                                                                        class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                        <td><input name="grade_other" id="grade_other"
+                                                                                        type="number" class="column100 column7 form-control"
+                                                                                        data-column="column7"></td>
+
+                                                                </tr>
+                                                        </tbody>
+                                                </table>
+                                        </div>
+
+                                        <hr class="hr-primary">
+
+
+                                        <label>กิจกรรมพิเศษระหว่างการศึกษา</label>
+                                        <input class="form-control col-sm-3" name="ed_act_1" id="ed_act_1" type="text"
+                                                placeholder="ex : กิจกรรมวิ่งมาราธอน">
+                                        <input type="text" name="ed_act_2" id="ed_act_2" class="form-control col-sm-3"
+                                                placeholder="ex:เข้าร่วม SC camp">
+                                        <input type="text" name="ed_act_3" id="ed_act_3" class="form-control col-sm-3"
+                                                placeholder="ex:เข้าร่วมค่ายอาสา">
+
+
+                                        <label>การฝึกอบรมพิเศษ</label>
+                                        <input class="form-control col-sm-3" name="ed_train_1" id="ed_train_1" type="text"
+                                                placeholder="ex : กิจกรรมวิ่งมาราธอน">
+                                        <input type="text" name="ed_train_2" id="ed_train_2" class="form-control col-sm-3"
+                                                placeholder="ex:เข้าร่วม SC camp">
+                                        <input type="text" name="ed_train_3" id="ed_train_3" class="form-control col-sm-3"
+                                                placeholder="ex:เข้าร่วมค่ายอาสา">
+
+
+                                        <button type="submit" id="btn_next" class="button"><span>ต่อไป &#8594;</span>
+
+                                </fieldset>
+                </div>
+                </form>
+        </div>
+
+        <script src="../dist/vertical-responsive-menu.min.js"></script>
+
+        <script src="getParamsFromUrl.js"></script>
+        <script src="getDataStorageForm3.js"></script>
+        <script>
+                $(document).ready(function () {
+
+                        if (!edit) {
+                                $("#form3").submit(function () {
+                                        $("#form3").attr("action", "form4.html");
+                                        setSessionStorage();
+                                });
+                        } else {
+                                $("#form3").submit(function () {
+                                        setSessionStorage();
+                                        $("#form3").attr("action",
+                                                "data.html?edit-success=form3");
+                                });
+                        }
+
+                        function setSessionStorage() {
+                                sessionStorage.elementary_sch = $("#elementary_sch").val();
+                                sessionStorage.degree_element = $("#degree_element").val();
+                                sessionStorage.field_element = $("#field_element").val();
+                                sessionStorage.begin_element = $("#begin_element").val();
+                                sessionStorage.end_element = $("#end_element").val();
+                                sessionStorage.grade_element = $("#grade_element").val();
+
+                                sessionStorage.hight_sch = $("#hight_sch").val();
+                                sessionStorage.degree_hight = $("#degree_hight").val();
+                                sessionStorage.field_hight = $("#field_hight").val();
+                                sessionStorage.begin_hight = $("#begin_hight").val();
+                                sessionStorage.end_hight = $("#end_hight").val();
+                                sessionStorage.grade_hight = $("#grade_hight").val();
+
+                                sessionStorage.secondary_sch = $("#secondary_sch").val();
+                                sessionStorage.degree_secon = $("#degree_secon").val();
+                                sessionStorage.field_secon = $("#field_secon").val();
+                                sessionStorage.begin_secon = $("#begin_secon").val();
+                                sessionStorage.end_secon = $("#end_secon").val();
+                                sessionStorage.grade_secon = $("#grade_secon").val();
+
+
+                                sessionStorage.voca_sch = $("#voca_sch").val();
+                                sessionStorage.degree_voca = $("#degree_voca").val();
+                                sessionStorage.field_voca = $("#field_voca").val();
+                                sessionStorage.begin_voca = $("#begin_voca").val();
+                                sessionStorage.end_voca = $("#end_voca").val();
+                                sessionStorage.grade_voca = $("#grade_voca").val();
+
+                                sessionStorage.hight_voca_sch = $("#hight_voca_sch").val();
+                                sessionStorage.degree_hight_voca = $("#degree_hight_voca").val();
+                                sessionStorage.field_hight_voca = $("#field_hight_voca").val();
+                                sessionStorage.begin_hight_voca = $("#begin_hight_voca").val();
+                                sessionStorage.end_hight_voca = $("#end_hight_voca").val();
+                                sessionStorage.grade_hight_voca = $("#grade_hight_voca").val();
+
+                                sessionStorage.bachelor = $("#bachelor").val();
+                                sessionStorage.degree_bachelor = $("#degree_bachelor").val();
+                                sessionStorage.field_bachelor = $("#field_bachelor").val();
+                                sessionStorage.begin_bachelor = $("#begin_bachelor").val();
+                                sessionStorage.end_bachelor = $("#end_bachelor").val();
+                                sessionStorage.grade_bachelor = $("#grade_bachelor").val();
+
+                                sessionStorage.master = $("#master").val();
+                                sessionStorage.degree_master = $("#degree_master").val();
+                                sessionStorage.field_master = $("#field_master").val();
+                                sessionStorage.begin_master = $("#begin_master").val();
+                                sessionStorage.end_master = $("#end_master").val();
+                                sessionStorage.grade_master = $("#grade_master").val();
+
+                                sessionStorage.other_sch = $("#other_sch").val();
+                                sessionStorage.degree_other = $("#degree_other").val();
+                                sessionStorage.field_other = $("#field_other").val();
+                                sessionStorage.begin_other = $("#begin_other").val();
+                                sessionStorage.end_other = $("#end_other").val();
+                                sessionStorage.grade_other = $("#grade_other").val();
+
+                                sessionStorage.ed_act_1 = $("#ed_act_1").val();
+                                sessionStorage.ed_act_2 = $("#ed_act_2").val();
+                                sessionStorage.ed_act_3 = $("#ed_act_3").val();
+
+                                sessionStorage.ed_train_1 = $("#ed_train_1").val();
+                                sessionStorage.ed_train_2 = $("#ed_train_2").val();
+                                sessionStorage.ed_train_3 = $("#ed_train_3").val();
+                        }
+                });
+        </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>เว็ปไซต์สมัครงาน</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+        <link href='../src/vendor/normalize.css/normalize.css' rel='stylesheet'>
+        <link href='../src/vendor/fontawesome/css/font-awesome.min.css' rel='stylesheet'>
+        <link href="../dist/vertical-responsive-menu.min.css" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" href="public/stylesheets/main.css">
+        <link rel="stylesheet" href="public/stylesheets/style-table.css">
+        <link rel="stylesheet" href="public/stylesheets/validationEngine.jquery.css" />
+
+
+</head>
+
+<!-- bootstrap -->
+<script src="public/javascripts/jquery-3.3.1.min"></script>
+<script src="public/javascripts/bootstrap.min.js"></script>
+<script src="public/javascripts/bootstrap.min.js.map"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js.map"></script>
+
+
+
+
+
+<script src="public/javascripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="public/javascripts/jquery.validationEngine-th.js" type="text/javascript" charset="utf-8"></script>
+<script src="public/javascripts/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+<script src="../dist/vertical-responsive-menu.min.js"></script>
+
+<script src="public/javascripts/jsTable.js"></script>
+
+
+
+
+<script>
+        $(document).ready(function () {
+                /*! Fades in page on load */
+                $('body').css('display', 'none');
+                $('body').fadeIn(600);
+              });
+            </script>
+
+<script>
+        $(document).ready(function(){
+        $("#Form1,#Form2,#Form3,#Form4,#Form5,#Form6,#Form9,#Form10").validationEngine();
+       });
+</script>
+
+<style>
+        @font-face {
+                  font-family: 'Athiti';
+                  src: url(public/font/Athiti-semibold.ttf);
+              }
+        </style>
+
+
+<body>
+        <header class="header clearfix">
+                <button type="button" id="toggleMenu" class="toggle_menu">
+                        <i class="fa fa-bars"></i>
+                </button>
+                <h1>เว็ปไซต์สมัครงาน</h1>
+        </header>
+
+        <nav class="vertical_nav">
+                <ul id="js-menu" class="menu">
+
+                        <li class="menu--item">
+                                <a href="index.html" class="menu--link">
+                                        <img src="public/stylesheets/png/009-one.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">ประวัติส่วนตัว</strong>
+
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form2.html" class="menu--link">
+                                        <img src="public/stylesheets/png/008-two.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">รายละเอียดครอบครัว</strong>
+
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form3.html" class="menu--link">
+                                        <img src="public/stylesheets/png/007-three.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">ประวัติการศึกษา</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form4.html" class="menu--link">
+                                        <img src="public/stylesheets/png/006-four.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">ประวัติการทำงาน/ประวัตการฝึกอบรม</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form5.html" class="menu--link" id="nav-form5">
+                                        <img src="public/stylesheets/png/005-five.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">ความสามในการใช้ภาษาต่างประเทศ <br> และคอมพิวเตอร์</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form6.html" class="menu--link">
+                                        <img src="public/stylesheets/png/004-six.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">บุคคลที่ติดต่อได้โดยไม่ใช่ญาติพี่น้อง</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form9.html" class="menu--link">
+                                        <img src="public/stylesheets/png/003-seven.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">สุขภาพ</strong>
+                                </a>
+                        </li>
+                        <li class="menu--item">
+                                <a href="form10.html" class="menu--link">
+                                        <img src="public/stylesheets/png/002-eight.png" width="25" height="25" class="menu--icon">
+                                        <strong class="menu--label">รายละเอียดอื่นๆ</strong>
+                                </a>
+                        </li>
+                </ul>
+
+                <button id="collapse_menu" class="collapse_menu">
+                        <i class="collapse_menu--icon  fa fa-fw"></i>
+                        <span class="collapse_menu--label">ซ่อนแถบเมนู</span>
+                </button>
+
+        </nav>
+
+
+        <div class="wrapper">
+                <div class="container_PA">
+                        <form method="POST" id="form4" class="needs-validation" novalidate>
+                                <fieldset>
+
+                                        <div class="table100 ver5 m-b-110 ">
+                                                <table data-vertable="ver5">
+                                                        <thead>
+                                                                <tr class="row100 head head1">
+                                                                        <th class="column100 column1 " data-column="column1">ประวัติการทำงาน</th>
+                                                                </tr>
+                                                        </thead>
+                                                </table>
+                                        </div>
+
+
+                                        <div class="table100 ver5">
+                                                <table class="flip-scroll responsive-table" data-vertable="ver5">
+                                                        <thead>
+                                                                <tr class="row100">
+                                                                        <th scope="col">ชื่อบริษัท </th>
+                                                                        <th scope="col">จาก-ถึง</th>
+                                                                        <th scope="col">ตำแหน่ง</th>
+                                                                        <th scope="col">เงินเดือนล่าสุด</th>
+                                                                        <th scope="col">ลักษณะงานที่ทำ</th>
+                                                                        <th scope="col">สาเหตุที่ออก</th>
+
+                                                                </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr class="row100">
+                                                                        <td><input name="office_address1" id="office_address1"
+                                                                                        type="text" class="column100 column1 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="start_end_workold1" id="start_end_workold1"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="rank_work1" id="rank_work1"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="salary_workold1" id="salary_workold1"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="job_descrip_workold1" id="job_descrip_workold1"
+                                                                                        type="text" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="resign_workold1" id="resign_workold1"
+                                                                                        type="text" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="office_address2" id="office_address2"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="start_end_workold2" id="start_end_workold2"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="rank_work2" id="rank_work2"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="salary_workold2" id="salary_workold2"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="job_descrip_workold2" id="job_descrip_workold2"
+                                                                                        type="text" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="resign_workold2" id="resign_workold2"
+                                                                                        type="text" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="office_address3" id="office_address3"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="start_end_workold3" id="start_end_workold3"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="rank_work3" id="rank_work3"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="salary_workold3" id="salary_workold3"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="job_descrip_workold3" id="job_descrip_workold3"
+                                                                                        type="text" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="resign_workold3" id="resign_workold3"
+                                                                                        type="text" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="office_address4" id="office_address4"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="start_end_workold4" id="start_end_workold4"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="rank_work4" id="rank_work4"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="salary_workold4" id="salary_workold4"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="job_descrip_workold4" id="job_descrip_workold4"
+                                                                                        type="text" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="resign_workold4" id="resign_workold4"
+                                                                                        type="text" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="office_address5" id="office_address5"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="start_end_workold5" id="start_end_workold5"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="rank_work5" id="rank_work5"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="salary_workold5" id="salary_workold5"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="job_descrip_workold5" id="job_descrip_workold5"
+                                                                                        type="text" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="resign_workold5" id="resign_workold5"
+                                                                                        type="text" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="office_address6" id="office_address6"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="start_end_workold6" id="start_end_workold6"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="rank_work6" id="rank_work6"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="salary_workold6" id="salary_workold6"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                        <td><input name="job_descrip_workold6" id="job_descrip_workold6"
+                                                                                        type="text" class="column100 column5 form-control"
+                                                                                        data-column="column5"></td>
+
+                                                                        <td><input name="resign_workold6" id="resign_workold6"
+                                                                                        type="text" class="column100 column6 form-control"
+                                                                                        data-column="column6"></td>
+
+
+
+                                                                </tr>
+
+
+                                                        </tbody>
+                                                </table>
+                                        </div>
+
+                                        <h1>ประวัติการฝึกอบรม (Training Record)</h1>
+
+                                        <div class="table100 ver5">
+                                                <table class="flip-scroll responsive-table" data-vertable="ver5">
+                                                        <thead>
+                                                                <tr class="row100">
+                                                                        <th class="column100 column1" data-column="column1">หัวข้อวิชาที่ฝึกอบรม</th>
+                                                                        <th class="column100 column2" data-column="column2">ระยะเวลาที่อบรม</th>
+                                                                        <th class="column100 column3" data-column="column3">สถาบัน</th>
+                                                                        <th class="column100 column4" data-column="column4">หมายเหตุ</th>
+
+                                                                </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr class="row100">
+                                                                        <td><input name="title_training1" id="title_training1"
+                                                                                        type="text" class="column100 column1 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="time_training1" id="time_training1"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="training_where1" id="training_where1"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="training_note1" id="training_note1"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="title_training2" id="title_training2"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="time_training2" id="time_training2"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="training_where2" id="training_where2"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="training_note2" id="training_note2"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="title_training3" id="title_training3"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="time_training3" id="time_training3"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="training_where3" id="training_where3"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="training_note3" id="training_note3"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="title_training4" id="title_training4"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="time_training4" id="time_training4"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="training_where4" id="training_where4"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="training_note4" id="training_note4"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="title_training5" id="title_training5"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="time_training5" id="time_training5"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="training_where5" id="training_where5"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="training_note5" id="training_note5"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+
+
+                                                                </tr>
+
+                                                                <tr class="row100">
+                                                                        <td><input name="title_training6" id="title_training6"
+                                                                                        type="text" class="column1 column100 form-control"
+                                                                                        data-column="column1"></td>
+
+                                                                        <td><input name="time_training6" id="time_training6"
+                                                                                        type="text" class="column100 column2 form-control"
+                                                                                        data-column="column2"></td>
+
+                                                                        <td><input name="training_where6" id="training_where6"
+                                                                                        type="text" class="column100 column3 form-control"
+                                                                                        data-column="column3"></td>
+
+                                                                        <td><input name="training_note6" id="training_note6"
+                                                                                        type="text" class="column100 column4 form-control"
+                                                                                        data-column="column4"></td>
+                                                                </tr>
+                                                        </tbody>
+                                                </table>
+                                        </div>
+
+
+                                        <button type="submit" id="btn_next" class="button"><span>ต่อไป &#8594;</span>
+
+                                </fieldset>
+                </div>
+                </form>
+        </div>
+
+        <script src="../dist/vertical-responsive-menu.min.js"></script>
+
+        <script src="getParamsFromUrl.js"></script>
+        <script src="getDataStorageForm4.js"></script>
+        <script>
+                $(document).ready(function () {
+                        if (!edit) {
+                                $("#form4").submit(function () {
+                                        $("#form4").attr("action", "form5.html");
+                                        setSessionStorage();
+                                });
+                        } else {
+                                $("#form4").submit(function () {
+                                        setSessionStorage();
+                                        $("#form4").attr("action",
+                                                "data.html?edit-success=form4");
+                                });
+                        }
+                        //Form4
+                        function setSessionStorage() {
+                                sessionStorage.office_address1 = $("#office_address1").val();
+                                sessionStorage.start_end_workold1 = $("#start_end_workold1").val();
+                                sessionStorage.rank_work1 = $("#rank_work1").val();
+                                sessionStorage.salary_workold1 = $("#salary_workold1").val();
+                                sessionStorage.job_descrip_workold1 = $("#job_descrip_workold1").val();
+                                sessionStorage.resign_workold1 = $("#resign_workold1").val();
+
+                                sessionStorage.office_address2 = $("#office_address2").val();
+                                sessionStorage.start_end_workold2 = $("#start_end_workold2").val();
+                                sessionStorage.rank_work2 = $("#rank_work2").val();
+                                sessionStorage.salary_workold2 = $("#salary_workold2").val();
+                                sessionStorage.job_descrip_workold2 = $("#job_descrip_workold2").val();
+                                sessionStorage.resign_workold2 = $("#resign_workold2").val();
+
+                                sessionStorage.office_address3 = $("#office_address3").val();
+                                sessionStorage.start_end_workold3 = $("#start_end_workold3").val();
+                                sessionStorage.rank_work3 = $("#rank_work3").val();
+                                sessionStorage.salary_workold3 = $("#salary_workold3").val();
+                                sessionStorage.job_descrip_workold3 = $("#job_descrip_workold3").val();
+                                sessionStorage.resign_workold3 = $("#resign_workold3").val();
+
+                                sessionStorage.office_address4 = $("#office_address4").val();
+                                sessionStorage.start_end_workold4 = $("#start_end_workold4").val();
+                                sessionStorage.rank_work4 = $("#rank_work4").val();
+                                sessionStorage.salary_workold4 = $("#salary_workold4").val();
+                                sessionStorage.job_descrip_workold4 = $("#job_descrip_workold4").val();
+                                sessionStorage.resign_workold4 = $("#resign_workold4").val();
+
+                                sessionStorage.office_address5 = $("#office_address5").val();
+                                sessionStorage.start_end_workold5 = $("#start_end_workold5").val();
+                                sessionStorage.rank_work5 = $("#rank_work5").val();
+                                sessionStorage.salary_workold5 = $("#salary_workold5").val();
+                                sessionStorage.job_descrip_workold5 = $("#job_descrip_workold5").val();
+                                sessionStorage.resign_workold5 = $("#resign_workold5").val();
+
+                                sessionStorage.office_address6 = $("#office_address6").val();
+                                sessionStorage.start_end_workold6 = $("#start_end_workold6").val();
+                                sessionStorage.rank_work6 = $("#rank_work6").val();
+                                sessionStorage.salary_workold6 = $("#salary_workold6").val();
+                                sessionStorage.job_descrip_workold6 = $("#job_descrip_workold6").val();
+                                sessionStorage.resign_workold6 = $("#resign_workold6").val();
+
+                                sessionStorage.time_training1 = $("#time_training1").val();
+                                sessionStorage.title_training1 = $("#title_training1").val();
+                                sessionStorage.start_end_workold1 = $("#start_end_workold1").val();
+                                sessionStorage.training_where1 = $("#training_where1").val();
+                                sessionStorage.training_note1 = $("#training_note1").val();
+
+                                sessionStorage.title_training2 = $("#title_training2").val();
+                                sessionStorage.time_training2 = $("#time_training2").val();
+                                sessionStorage.training_where2 = $("#training_where2").val();
+                                sessionStorage.training_note2 = $("#training_note2").val();
+
+                                sessionStorage.title_training3 = $("#title_training3").val();
+                                sessionStorage.time_training3 = $("#time_training3").val();
+                                sessionStorage.training_where3 = $("#training_where3").val();
+                                sessionStorage.training_note3 = $("#training_note3").val();
+
+                                sessionStorage.title_training4 = $("#title_training4").val();
+                                sessionStorage.time_training4 = $("#time_training4").val();
+                                sessionStorage.training_where4 = $("#training_where4").val();
+                                sessionStorage.training_note4 = $("#training_note4").val();
+
+                                sessionStorage.title_training5 = $("#title_training5").val();
+                                sessionStorage.time_training5 = $("#time_training5").val();
+                                sessionStorage.training_where5 = $("#training_where5").val();
+                                sessionStorage.training_note5 = $("#training_note5").val();
+
+                                sessionStorage.title_training6 = $("#title_training6").val();
+                                sessionStorage.time_training6 = $("#time_training6").val();
+                                sessionStorage.training_where6 = $("#training_where6").val();
+                                sessionStorage.training_note6 = $("#training_note6").val();
+                        }
+                });
+        </script>
+
+
+</body>
+
+
+</html>

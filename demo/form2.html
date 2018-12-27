@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>เว็ปไซต์สมัครงาน</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <link href='../src/vendor/normalize.css/normalize.css' rel='stylesheet'>
+    <link href='../src/vendor/fontawesome/css/font-awesome.min.css' rel='stylesheet'>
+    <link href="../dist/vertical-responsive-menu.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="public/stylesheets/main.css">
+    <link rel="stylesheet" href="public/stylesheets/style-table.css">
+    <link rel="stylesheet" href="public/stylesheets/validationEngine.jquery.css" />
+
+
+</head>
+
+<!-- bootstrap -->
+<script src="public/javascripts/jquery-3.3.1.min"></script>
+<script src="public/javascripts/bootstrap.min.js"></script>
+<script src="public/javascripts/bootstrap.min.js.map"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js.map"></script>
+
+
+
+<script src="public/javascripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="public/javascripts/jquery.validationEngine-th.js" type="text/javascript" charset="utf-8"></script>
+<script src="public/javascripts/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+<script src="../dist/vertical-responsive-menu.min.js"></script>
+<script src="public/javascripts/jsTable.js"></script>
+
+
+
+<script>
+    $(document).ready(function () {
+        /*! Fades in page on load */
+        $('body').css('display', 'none');
+        $('body').fadeIn(600);
+      });
+    </script>
+
+<script>
+    $(document).ready(function(){
+        $("#form2").validationEngine();
+       });
+</script>
+
+<style>
+    @font-face {
+          font-family: 'Athiti';
+          src: url(public/font/Athiti-semibold.ttf);
+      }
+      
+      </style>
+
+<body>
+    <header class="header clearfix">
+        <button type="button" id="toggleMenu" class="toggle_menu">
+            <i class="fa fa-bars"></i>
+        </button>
+        <h1>เว็ปไซต์สมัครงาน</h1>
+    </header>
+
+    <nav class="vertical_nav">
+        <ul id="js-menu" class="menu">
+
+            <li class="menu--item">
+                <a href="index.html" class="menu--link">
+                    <img src="public/stylesheets/png/009-one.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">ประวัติส่วนตัว</strong>
+
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form2.html" class="menu--link">
+                    <img src="public/stylesheets/png/008-two.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">รายละเอียดครอบครัว</strong>
+
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form3.html" class="menu--link">
+                    <img src="public/stylesheets/png/007-three.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">ประวัติการศึกษา</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form4.html" class="menu--link">
+                    <img src="public/stylesheets/png/006-four.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">ประวัติการทำงาน/ประวัตการฝึกอบรม</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form5.html" class="menu--link" id="nav-form5">
+                    <img src="public/stylesheets/png/005-five.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">ความสามในการใช้ภาษาต่างประเทศ <br> และคอมพิวเตอร์</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form6.html" class="menu--link">
+                    <img src="public/stylesheets/png/004-six.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">บุคคลที่ติดต่อได้โดยไม่ใช่ญาติพี่น้อง</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form9.html" class="menu--link">
+                    <img src="public/stylesheets/png/003-seven.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">สุขภาพ</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form10.html" class="menu--link">
+                    <img src="public/stylesheets/png/002-eight.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">รายละเอียดอื่นๆ</strong>
+                </a>
+            </li>
+        </ul>
+
+        <button id="collapse_menu" class="collapse_menu">
+            <i class="collapse_menu--icon  fa fa-fw"></i>
+            <span class="collapse_menu--label">ซ่อนแถบเมนู</span>
+        </button>
+
+    </nav>
+
+
+    <div class="wrapper">
+        <div class="container_PA">
+            <form method="POST" id="form2" class="needs-validation" novalidate>
+
+                <fieldset>
+          
+
+                    <div class="table100 ver5 m-b-110 ">
+                        <table data-vertable="ver5">
+                            <thead>
+                                <tr class="row100 head head1">
+                                    <th class="column100 column1 " data-column="column1">รายละเอียดเกี่ยวกับครอบครัว</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+
+
+
+
+                    <label>บิดา</label>
+
+
+                    <div class="form-row">
+                        <div class="col-sm-3">
+                            <label>คำนำหน้าชื่อ</label>
+                            <select class="op-input120 custom-select" id="fa_title" name="fa_title" disabled>
+                                <option selected value="นาย">นาย</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-3">
+                            <label>ชื่อ</label>
+                            <input type="text" class="form-control" id="fa_Fname" name="fa_Fname">
+                        </div>
+                        <div class="col-sm-3">
+                            <label>นามสกุล</label>
+                            <input type="text" name="fa_Lname" id="fa_Lname" class="form-control">
+                        </div>
+                        <div class="col-sm-3">
+                            <label>อายุ</label>
+                            <input type="number" name="fa_age" id="fa_age" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-sm-3">
+                            <label>อาชีพ</label>
+                            <input type="text" name="fa_Occ" id="fa_Occ" class="form-control">
+                        </div>
+                        <div class="col-sm-3">
+                            <label>สถานที่ทำงาน</label>
+                            <input type="text" name="fa_place" id="fa_place" class="form-control">
+                        </div>
+                        <div class="col-md-3">
+                            <label>โทรศัพท์</label>
+                            <input type="text" name="fa_tel" id="fa_tel" class="form-control">
+                        </div>
+                    </div>
+
+
+
+                    <hr class="hr-primary">
+
+
+                    <label>มารดา</label>
+                    <div class="form-row">
+                        <div class="col-sm-3">
+                            <label>คำนำหน้าชื่อ</label>
+                            <div class="select">
+                                <select class="custom-select" name="ma_title" id="ma_title">
+                                    <option hidden>-- กรุณาเลือก --</option>
+                                    <option value="นาย">นาย</option>
+                                    <option value="นาง">นาง</option>
+                                    <option value="นางสาว">นางสาว</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <label>ชื่อ</label>
+                            <input type="text" class="form-control" id="ma_Fname" name="ma_Fname">
+                        </div>
+                        <div class="col-sm-3">
+                            <label>นามสกุล</label>
+                            <input type="text" name="ma_Lname" id="ma_Lname" class="form-control">
+                        </div>
+                        <div class="col-sm-3">
+                            <label>อายุ</label>
+                            <input type="number" name="ma_age" id="ma_age" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-sm-3">
+                            <label>อาชีพ</label>
+                            <input type="text" name="ma_Occ" id="ma_Occ" class="form-control">
+                        </div>
+                        <div class="col-sm-3">
+                            <label>สถานที่ทำงาน</label>
+                            <input type="text" name="ma_place" id="ma_place" class="form-control">
+                        </div>
+                        <div class="col-sm-3">
+                            <label>โทรศัพท์</label>
+                            <input type="text" name="ma_tel" id="ma_tel" class="form-control">
+                        </div>
+                    </div>
+
+
+                    <hr class="hr-primary">
+
+
+
+                    <!--========================================================================-->
+
+                    <label>พี่น้อง</label>
+                    <div class="form-row">
+                        <div class="col-sm-3">
+                            <label>พี่น้องร่วมบิดา-มารดาจำนวน</label>
+                            <div class="input-group">
+                                <input type="number" name="num_bro" id="num_bro" aria-describedby="basic-addon2" class="form-control validate[required]">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2">คน</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table100 ver5">
+                            <table class="flip-scroll responsive-table" data-vertable="ver5">
+                                    <thead>
+                                            <tr class="row100">
+                                    <th scope="col">ชื่อ-นามสกุล</td>
+                                    <th scope="col">อายุ</td>
+                                    <th scope="col">อาชีพ</td>
+                                    <th scope="col">สถานที่ทำงาน</td>
+                                    <th scope="col">โทรศัพท์</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="row100">
+                                    <td><input name="bro_name1" id="bro_name1" type="text" class="form-control" /></td>
+                                    <td><input name="bro_old1" id="bro_old1" type="number" class="form-control" /></td>
+                                    <td><input name="bro_career1" id="bro_career1" type="text" class="form-control" /></td>
+                                    <td><input name="bro_where1" id="bro_where1" type="text" class="form-control" /></td>
+                                    <td><input name="bro_tel1" id="bro_tel1" type="number" class="form-control" /></td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td><input name="bro_name2" id="bro_name2" type="text" class="form-control" /></td>
+                                    <td><input name="bro_old2" id="bro_old2" type="number" class="form-control" /></td>
+                                    <td><input name="bro_career2" id="bro_career2" type="text" class="form-control" /></td>
+                                    <td><input name="bro_where2" id="bro_where2" type="text" class="form-control" /></td>
+                                    <td><input name="bro_tel2" id="bro_tel2" type="number" class="form-control" /></td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td><input name="bro_name3" id="bro_name3" type="text" class="form-control" /></td>
+                                    <td><input name="bro_old3" id="bro_old3" type="number" class="form-control" /></td>
+                                    <td><input name="bro_career3" id="bro_career3" type="text" class="form-control" /></td>
+                                    <td><input name="bro_where3" id="bro_where3" type="text" class="form-control" /></td>
+                                    <td><input name="bro_tel3" id="bro_tel3" type="number" class="form-control" /></td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td><input name="bro_name4" id="bro_name4" type="text" class="form-control" /></td>
+                                    <td><input name="bro_old4" id="bro_old4" type="number" class="form-control" /></td>
+                                    <td><input name="bro_career4" id="bro_career4" type="text" class="form-control" /></td>
+                                    <td><input name="bro_where4" id="bro_where4" type="text" class="form-control" /></td>
+                                    <td><input name="bro_tel4" id="bro_tel4" type="number" class="form-control" /></td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td><input name="bro_name5" id="bro_name5" type="text" class="form-control" /></td>
+                                    <td><input name="bro_old5" id="bro_old5" type="number" class="form-control" /></td>
+                                    <td><input name="bro_career5" id="bro_career5" type="text" class="form-control" /></td>
+                                    <td><input name="bro_where5" id="bro_where5" type="text" class="form-control" /></td>
+                                    <td><input name="bro_tel5" id="bro_tel5" type="number" class="form-control" /></td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td><input name="bro_name6" id="bro_name6" type="text" class="form-control" /></td>
+                                    <td><input name="bro_old6" id="bro_old6" type="number" class="form-control" /></td>
+                                    <td><input name="bro_career6" id="bro_career6" type="text" class="form-control" /></td>
+                                    <td><input name="bro_where6" id="bro_where6" type="text" class="form-control" /></td>
+                                    <td><input name="bro_tel6" id="bro_tel6" type="number" class="form-control" /></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <button type="submit" id="btn_next" class="button"><span>ต่อไป &#8594;</span>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script src="../dist/vertical-responsive-menu.min.js"></script>
+
+    <script src="getParamsFromUrl.js"></script>
+    <script src="getDataStorageForm2.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            if (!edit) {
+                $("#form2").submit(function () {
+                    $("#form2").attr("action", "form3.html");
+                    setSessionStorage();
+                });
+            } else {
+                $("#form2").submit(function () {
+                    setSessionStorage();
+                    $("#form2").attr("action", "data.html?edit-success=form2");
+                });
+            }
+
+            function setSessionStorage() {
+                sessionStorage.fa_title = $("#fa_title").val();
+                sessionStorage.fa_Fname = $("#fa_Fname").val();
+                sessionStorage.fa_Lname = $("#fa_Lname").val();
+                sessionStorage.fa_age = $("#fa_age").val();
+
+                sessionStorage.fa_Occ = $("#fa_Occ").val();
+                sessionStorage.fa_place = $("#fa_place").val();
+                sessionStorage.fa_tel = $("#fa_tel").val();
+
+                sessionStorage.ma_Fname = $("#ma_Fname").val();
+                sessionStorage.ma_Lname = $("#ma_Lname").val();
+                sessionStorage.ma_age = $("#ma_age").val();
+
+                sessionStorage.ma_title = $("#ma_title").val();
+                sessionStorage.ma_Occ = $("#ma_Occ").val();
+                sessionStorage.ma_place = $("#ma_place").val();
+                sessionStorage.ma_tel = $("#ma_tel").val();
+
+
+                sessionStorage.num_bro = $("#num_bro").val();
+
+                sessionStorage.bro_name1 = $("#bro_name1").val();
+                sessionStorage.bro_old1 = $("#bro_old1").val();
+                sessionStorage.bro_career1 = $("#bro_career1").val();
+                sessionStorage.bro_where1 = $("#bro_where1").val();
+                sessionStorage.bro_tel1 = $("#bro_tel1").val();
+
+                sessionStorage.bro_name2 = $("#bro_name2").val();
+                sessionStorage.bro_old2 = $("#bro_old2").val();
+                sessionStorage.bro_career2 = $("#bro_career2").val();
+                sessionStorage.bro_where2 = $("#bro_where2").val();
+                sessionStorage.bro_tel2 = $("#bro_tel2").val();
+
+                sessionStorage.bro_name3 = $("#bro_name3").val();
+                sessionStorage.bro_old3 = $("#bro_old3").val();
+                sessionStorage.bro_career3 = $("#bro_career3").val();
+                sessionStorage.bro_where3 = $("#bro_where3").val();
+                sessionStorage.bro_tel3 = $("#bro_tel3").val();
+
+                sessionStorage.bro_name4 = $("#bro_name4").val();
+                sessionStorage.bro_old4 = $("#bro_old4").val();
+                sessionStorage.bro_career4 = $("#bro_career4").val();
+                sessionStorage.bro_where4 = $("#bro_where4").val();
+                sessionStorage.bro_tel4 = $("#bro_tel4").val();
+
+
+                sessionStorage.bro_name5 = $("#bro_name5").val();
+                sessionStorage.bro_old5 = $("#bro_old5").val();
+                sessionStorage.bro_career5 = $("#bro_career5").val();
+                sessionStorage.bro_where5 = $("#bro_where5").val();
+                sessionStorage.bro_tel5 = $("#bro_tel5").val();
+
+                sessionStorage.bro_name6 = $("#bro_name6").val();
+                sessionStorage.bro_old6 = $("#bro_old6").val();
+                sessionStorage.bro_career6 = $("#bro_career6").val();
+                sessionStorage.bro_where6 = $("#bro_where6").val();
+                sessionStorage.bro_tel6 = $("#bro_tel6").val();
+            }
+
+        });
+    </script>
+</body>
+
+</html>

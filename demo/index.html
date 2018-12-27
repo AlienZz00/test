@@ -1,0 +1,1075 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>เว็ปไซต์สมัครงาน</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+  <link href='../src/vendor/normalize.css/normalize.css' rel='stylesheet'>
+  <link href='../src/vendor/fontawesome/css/font-awesome.min.css' rel='stylesheet'>
+  <link href="../dist/vertical-responsive-menu.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="public/stylesheets/main.css">
+  <link rel="stylesheet" href="public/stylesheets/style-table.css">
+  <link rel="stylesheet" href="public/stylesheets/validationEngine.jquery.css" />
+
+
+
+
+</head>
+
+<!-- bootstrap -->
+<script src="public/javascripts/jquery-3.3.1.min"></script>
+<script src="public/javascripts/bootstrap.min.js"></script>
+<script src="public/javascripts/bootstrap.min.js.map"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js.map"></script>
+
+<script src="../dist/vertical-responsive-menu.min.js"></script>
+
+
+
+<script src="public/javascripts/webcam.min.js"></script>
+
+<script src="public/javascripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="public/javascripts/jquery.validationEngine-th.js" type="text/javascript" charset="utf-8"></script>
+<script src="public/javascripts/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="public/javascripts/upload-img.js"></script>
+<script src="public/javascripts/take-photo.js"></script>
+<script src="public/javascripts/insert-input.js"></script>
+<script src="public/javascripts/jquery.thprovinceset.1.0.js"></script>
+
+<script>
+  $(document).ready(function () {
+    /*! Fades in page on load */
+    $('body').css('display', 'none');
+    $('body').fadeIn(600);
+     $("#form1").validationEngine();
+       });
+</script>
+
+<style>
+  @font-face {
+    font-family: 'Athiti';
+    src: url(public/font/Athiti-semibold.ttf);
+}
+</style>
+
+
+</head>
+
+<body>
+
+  <header class="header clearfix">
+    <button type="button" id="toggleMenu" class="toggle_menu">
+      <i class="fa fa-bars"></i>
+    </button>
+    <h1>เว็ปไซต์สมัครงาน</h1>
+  </header>
+fa
+  <nav class="vertical_nav">
+    <ul id="js-menu" class="menu">
+
+      <li class="menu--item">
+        <a href="index.html" class="menu--link">
+          <img src="public/stylesheets/png/009-one.png" width="25" height="25" class="menu--icon">
+          <strong class="menu--label">ประวัติส่วนตัว</strong>
+
+        </a>
+      </li>
+      <li class="menu--item">
+        <a href="form2.html" class="menu--link">
+          <img src="public/stylesheets/png/008-two.png" width="25" height="25" class="menu--icon">
+          <strong class="menu--label">รายละเอียดครอบครัว</strong>
+
+        </a>
+      </li>
+      <li class="menu--item">
+        <a href="form3.html" class="menu--link">
+          <img src="public/stylesheets/png/007-three.png" width="25" height="25" class="menu--icon">
+          <strong class="menu--label">ประวัติการศึกษา</strong>
+        </a>
+      </li>
+      <li class="menu--item">
+        <a href="form4.html" class="menu--link">
+          <img src="public/stylesheets/png/006-four.png" width="25" height="25" class="menu--icon">
+          <strong class="menu--label">ประวัติการทำงาน/ประวัตการฝึกอบรม</strong>
+        </a>
+      </li>
+      <li class="menu--item">
+        <a href="form5.html" class="menu--link" id="nav-form5">
+          <img src="public/stylesheets/png/005-five.png" width="25" height="25" class="menu--icon">
+          <strong class="menu--label">ความสามในการใช้ภาษาต่างประเทศ <br> และคอมพิวเตอร์</strong>
+        </a>
+      </li>
+      <li class="menu--item">
+        <a href="form6.html" class="menu--link" >
+          <img src="public/stylesheets/png/004-six.png" width="25" height="25" class="menu--icon">
+          <strong class="menu--label">บุคคลที่ติดต่อได้โดยไม่ใช่ญาติพี่น้อง</strong>
+        </a>
+      </li>
+      <li class="menu--item">
+        <a href="form9.html" class="menu--link">
+          <img src="public/stylesheets/png/003-seven.png" width="25" height="25" class="menu--icon">
+          <strong class="menu--label">สุขภาพ</strong>
+        </a>
+      </li>
+      <li class="menu--item">
+        <a href="form10.html" class="menu--link">
+          <img src="public/stylesheets/png/002-eight.png" width="25" height="25" class="menu--icon">
+          <strong class="menu--label">รายละเอียดอื่นๆ</strong>
+        </a>
+      </li>
+    </ul>
+
+    <button id="collapse_menu" class="collapse_menu">
+      <i class="collapse_menu--icon  fa fa-fw"></i>
+      <span class="collapse_menu--label">ซ่อนแถบเมนู</span>
+    </button>
+
+  </nav>
+
+
+  <div class="wrapper">
+    <div class="container_PA">
+      <form method="POST" id="form1" class="needs-validation" novalidate>
+
+          <fieldset>
+            <div class="table100 ver5 m-b-110 ">
+              <table data-vertable="ver5">
+                <thead>
+                  <tr class="row100 head head1">
+                    <th class="column100 column1 " data-column="column1">ประวัติส่วนตัว</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+
+        
+
+      
+            <label>ภาพถ่าย</label>
+            <label>กรุณาเลือกวิธีการอัพโหลดภาพถ่าย</label>
+            <div class="form-row">
+              <div class="custom-control custom-radio">
+                <input  id="load_image1" class="custom-control-input load_image" name="load_image" type="radio" value="อัพโหลดรูปภาพ">
+                <label class="custom-control-label" for="load_image1">อัพโหลดรูปภาพ</label>
+              </div>
+  
+              <div class="custom-control custom-radio">
+                <input  id="load_image2" class="custom-control-input load_image" name="load_image" type="radio" value="ถ่ายภาพจากกล้อง">
+                <label class="custom-control-label" for="load_image2">ถ่ายภาพจากกล้อง</label>
+              </div>
+            </div>
+  
+            <img name="img_upload" id="img_upload" />
+  
+  
+            <div class="upload_img" style="display:none;">
+              <!-- อัพโหลดรูปภาพ-->
+  
+              <label for="basic-url">อัพโหลดรูปภาพ</label>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="btn btn-outline-info btn-file" id="basic-addon3">เลือกรูปภาพ… <input  type="file" id="imgInp">
+                  </span>
+                </div>
+                <input  type="text" class="form-control col-sm-3" id="basic_url" name="basic_url" aria-describedby="basic-addon3"
+                  readonly>
+              </div>
+            </div>
+  
+  
+            <div class="take_snapshot" style="display:none;">
+              <!-- กล้องถ่ายรูป -->
+              <label>กรณีไม่มีไฟล์รูปภาพ</label>
+              <div class="btn_camera">
+                <button type=button class="btn btn-outline-primary" value="Configure" onClick="configure()">เปิดใช้งานกล้องถ่ายภาพ</button>
+                <button type=button class="btn btn-outline-success" value="Take Snapshot" onClick="take_snapshot()">ถ่ายภาพ</button>
+              </div>
+  
+              <div class="row">
+                <div id="my_camera">
+                  <label class="camera_area">กล้อง</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="col-sm-6">
+                <label>ทราบข่าวการสมัครจาก</label>
+                <input type="text" name="news" id="news" class="form-control validate[required]" >
+              </div>
+              <div class="col-sm-3">
+                <label>วันที่สมัคร</label>
+                <input type="date" name="my_date_regis" id="my_date_regis" class="form-control" >
+              </div>
+            </div>
+
+
+            <div class="form-row">
+              <div class="col-sm-6">
+                <label>สมัครตำแหน่ง</label>
+                <div class="form-row">
+                  <div class="col-sm-6">
+                    <input  type="text" name="position1" id="position1" class="form-control" >
+                  </div>
+                  <div class="col-sm-6">
+                    <input  type="text" name="position2" id="position2" class="form-control" >
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-sm-3">
+                <label>วันที่พร้อมทำงาน</label>
+                <input  type="date" name="my_date_readywork" id="my_date_readywork" class="form-control">
+              </div>
+
+              <div class="col-sm-3">
+                <label>อัตราเงินเดือนที่คาดหวัง</label>
+                <div class="input-group">
+                  <input  type="number" name="my_salary_want" id="my_salary_want" class="form-control">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">บาท</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr class="hr-primary">
+
+            <div class="form-row">
+              <div class="col-sm-3 ">
+                <label>คำนำหน้าชื่อ</label>
+                <select class="custom-select" id="my_title" name="my_title" >
+                  <option hidden>--กรุณาเลือก--</option>
+                  <option id="male" value="นาย">นาย</option>
+                  <option id="female" value="นาง">นาง</option>
+                  <option id="other" value="นางสาว">นางสาว</option>
+                </select>
+              </div>
+
+              <div class="col-sm-3">
+                <label>ชื่อ</label>
+                <input  type="text" class="form-control" } id="my_Fname" name="my_Fname" required>
+                <div class="invalid-tooltip">
+                  Please choose a username.
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <label>นามสกุล</label>
+                <input  type="text" name="my_Lname" id="my_Lname" class="form-control">
+              </div>
+            </div>
+
+            <div class="box" style=" display: none;">
+
+              <label>ท่านเคยผ่านการเกณฑ์ทหารหรือไม่</label>
+              <div class="form-row">
+                <div class="custom-control custom-radio">
+                  <input  id="soldier1" class="custom-control-input soldier" name="soldier" type="radio" value="เคย">
+                  <label class="custom-control-label" for="soldier1">เคย</label>
+                </div>
+
+                <div class="custom-control custom-radio">
+                  <input  id="soldier2" class="custom-control-input soldier" name="soldier" type="radio" value="ไม่เคย">
+                  <label class="custom-control-label" for="soldier2">ไม่เคย</label>
+                </div>
+              </div>
+
+
+              <!-----------คำถาม การเกณฑ์ทหาร-------------------->
+              <div class="soldier_ever" style="display:none;">
+                <div class="form-row">
+                  <div class="col-sm-3">
+                    <label>รับราชการทหารแล้ว สังกัด</label>
+                    <input  type="text" name="sol_affilia" id="sol_affilia" class="form-control ">
+                  </div>
+                  <div class="col-sm-3">
+                    <label>จังหวัด </label>
+                    <select class="custom-select btn-outline-primar" name="sol_where" id="sol_where">
+                      <option hidden>--------- เลือกจังหวัด ---------</option>
+                      <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
+                      <option value="กระบี่">กระบี่ </option>
+                      <option value="กาญจนบุรี">กาญจนบุรี </option>
+                      <option value="กาฬสินธุ์">กาฬสินธุ์ </option>
+                      <option value="กำแพงเพชร">กำแพงเพชร </option>
+                      <option value="ขอนแก่น">ขอนแก่น</option>
+                      <option value="จันทบุรี">จันทบุรี</option>
+                      <option value="ฉะเชิงเทรา">ฉะเชิงเทรา </option>
+                      <option value="ชัยนาท">ชัยนาท </option>
+                      <option value="ชัยภูมิ">ชัยภูมิ </option>
+                      <option value="ชุมพร">ชุมพร </option>
+                      <option value="ชลบุรี">ชลบุรี </option>
+                      <option value="เชียงใหม่">เชียงใหม่ </option>
+                      <option value="เชียงราย">เชียงราย </option>
+                      <option value="ตรัง">ตรัง </option>
+                      <option value="ตราด">ตราด </option>
+                      <option value="ตาก">ตาก </option>
+                      <option value="นครนายก">นครนายก </option>
+                      <option value="นครปฐม">นครปฐม </option>
+                      <option value="นครพนม">นครพนม </option>
+                      <option value="นครราชสีมา">นครราชสีมา </option>
+                      <option value="นครศรีธรรมราช">นครศรีธรรมราช </option>
+                      <option value="นครสวรรค์">นครสวรรค์ </option>
+                      <option value="นราธิวาส">นราธิวาส </option>
+                      <option value="น่าน">น่าน </option>
+                      <option value="นนทบุรี">นนทบุรี </option>
+                      <option value="บึงกาฬ">บึงกาฬ</option>
+                      <option value="บุรีรัมย์">บุรีรัมย์</option>
+                      <option value="ประจวบคีรีขันธ์">ประจวบคีรีขันธ์ </option>
+                      <option value="ปทุมธานี">ปทุมธานี </option>
+                      <option value="ปราจีนบุรี">ปราจีนบุรี </option>
+                      <option value="ปัตตานี">ปัตตานี </option>
+                      <option value="พะเยา">พะเยา </option>
+                      <option value="พระนครศรีอยุธยา">พระนครศรีอยุธยา </option>
+                      <option value="พังงา">พังงา </option>
+                      <option value="พิจิตร">พิจิตร </option>
+                      <option value="พิษณุโลก">พิษณุโลก </option>
+                      <option value="เพชรบุรี">เพชรบุรี </option>
+                      <option value="เพชรบูรณ์">เพชรบูรณ์ </option>
+                      <option value="แพร่">แพร่ </option>
+                      <option value="พัทลุง">พัทลุง </option>
+                      <option value="ภูเก็ต">ภูเก็ต </option>
+                      <option value="มหาสารคาม">มหาสารคาม </option>
+                      <option value="มุกดาหาร">มุกดาหาร </option>
+                      <option value="แม่ฮ่องสอน">แม่ฮ่องสอน </option>
+                      <option value="ยโสธร">ยโสธร </option>
+                      <option value="ยะลา">ยะลา </option>
+                      <option value="ร้อยเอ็ด">ร้อยเอ็ด </option>
+                      <option value="ระนอง">ระนอง </option>
+                      <option value="ระยอง">ระยอง </option>
+                      <option value="ราชบุรี">ราชบุรี</option>
+                      <option value="ลพบุรี">ลพบุรี </option>
+                      <option value="ลำปาง">ลำปาง </option>
+                      <option value="ลำพูน">ลำพูน </option>
+                      <option value="เลย">เลย </option>
+                      <option value="ศรีสะเกษ">ศรีสะเกษ</option>
+                      <option value="สกลนคร">สกลนคร</option>
+                      <option value="สงขลา">สงขลา </option>
+                      <option value="สมุทรสาคร">สมุทรสาคร </option>
+                      <option value="สมุทรปราการ">สมุทรปราการ </option>
+                      <option value="สมุทรสงคราม">สมุทรสงคราม </option>
+                      <option value="สระแก้ว">สระแก้ว </option>
+                      <option value="สระบุรี">สระบุรี </option>
+                      <option value="สิงห์บุรี">สิงห์บุรี </option>
+                      <option value="สุโขทัย">สุโขทัย </option>
+                      <option value="สุพรรณบุรี">สุพรรณบุรี </option>
+                      <option value="สุราษฎร์ธานี">สุราษฎร์ธานี </option>
+                      <option value="สุรินทร์">สุรินทร์ </option>
+                      <option value="สตูล">สตูล </option>
+                      <option value="หนองคาย">หนองคาย </option>
+                      <option value="หนองบัวลำภู">หนองบัวลำภู </option>
+                      <option value="อำนาจเจริญ">อำนาจเจริญ </option>
+                      <option value="อุดรธานี">อุดรธานี </option>
+                      <option value="อุตรดิตถ์">อุตรดิตถ์ </option>
+                      <option value="อุทัยธานี">อุทัยธานี </option>
+                      <option value="อุบลราชธานี">อุบลราชธานี</option>
+                      <option value="อ่างทอง">อ่างทอง </option>
+                      <option value="อื่นๆ">อื่นๆ</option>
+                    </select>
+                  </div>
+
+                  <div class="col-sm-3">
+                    <label>วันประจำการ </label>
+                    <input disabled type="date" name="sol_date" id="sol_date" class="form-control">
+                  </div>
+                </div>
+              </div>
+
+              <div class="soldier_never" style="display:none;">
+                <div class="form-row">
+                  <div class="col-sm-3">
+                    <label>จะเกณฑ์ทหารในปี</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">พ.ศ.</span>
+                      </div>
+                      <input disabled type="number" name="year_drafted" id="year_drafted" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <label>ได้รับการยกเว้นเนื่องจาก</label>
+                    <input disabled type="text" name="exam_except" id="exam_except" class="form-control">
+                  </div>
+                </div>
+              </div>
+
+
+              <hr class="hr-primary">
+
+          
+                <label>การอุปสมบท</label>
+                <div class="form-row">
+                  <div class="custom-control custom-radio">
+                    <input id="monkhood1" class="custom-control-input monkhood" name="monkhood" type="radio" value="อุปสมบทแล้ว">
+                    <label for="monkhood1" class="custom-control-label">อุปสมบทแล้ว</label>
+                  </div>
+                  <div class="custom-control custom-radio">
+                    <input id="monkhood2" class="custom-control-input monkhood" name="monkhood" type="radio" value="ยังไม่เคยอุปสมบท">
+                    <label for="monkhood2" class="custom-control-label">ยังไม่เคยอุปสมบท</label>
+                  </div>
+                </div>
+              </div>
+           
+
+
+            <hr class="hr-primary">
+
+            <!--=============================================================-->
+
+            <div class="form-row">
+              <div class="col-sm-3">
+                <label>วัน/เดือน/ปี เกิด</label>
+                <input type="date" name="my_birth_date" id="my_birth_date" class="form-control ">
+              </div>
+
+
+              <div class="col-sm-3">
+                <label>อายุ</label>
+                <div class="input-group">
+                  <input type="number" name="my_age" id="my_age" aria-describedby="basic-addon2" class="form-control">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">ปี</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <label>ส่วนสูง</label>
+                <div class="input-group">
+                  <input type="number" name="my_height" id="my_height" aria-describedby="basic-addon2" class="form-control">
+
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">ซ.ม.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <label>น้ำหนัก</label>
+                <div class="input-group">
+                  <input type="number" name="my_weight" id="my_weight" aria-describedby="basic-addon2" class="form-control">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">ก.ก.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="col-sm-3">
+                <label>หมู่เลือด</label>
+                <div class="select">
+                  <select class="custom-select" id="my_blood_group" name="my_blood_group">
+                    <option hidden>-- กรุณาเลือก --</option>
+                    <option value="กรุ๊ป O">กรุ๊ป O</option>
+                    <option value="กรุ๊ป A">กรุ๊ป A</option>
+                    <option value="กรุ๊ป B">กรุ๊ป B</option>
+                    <option value="กรุ๊ป AB">กรุ๊ป AB</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+
+            <hr class="hr-primary">
+            <!--==========================================================================================================================================-->
+
+            <div class="form-row">
+
+              <div class="col-sm-3">
+                <label>ศาสนา</label>
+                <select class="custom-select" name="my_religion" id="my_religion">
+                  <option hidden>-- กรุณาเลือก --</option>
+                  <option value="ศาสนาคริสต์">ศาสนาคริสต์</option>
+                  <option value="ศาสนาอิสลาม">ศาสนาอิสลาม</option>
+                  <option value="ศาสนาพราหมณ์-ฮินดู">ศาสนาพราหมณ์-ฮินดู</option>
+                  <option value="ศาสนาพุทธ">ศาสนาพุทธ</option>
+                  <option value="ศาสนาซิกข์">ศาสนาซิกข์</option>
+                  <option value="อื่นๆ">อื่นๆ</option>
+                  <option value="ไม่มีศาสนา">ไม่มีศาสนา</option>
+                </select>
+              </div>
+              <div class="col-sm-3">
+                <label>สัญชาติ</label>
+                <div class="select">
+                  <select class="custom-select" name="nationality" id="nationality">
+
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <label>เชื้อชาติ</label>
+                <div class="select">
+                  <select class="custom-select" name="race" id="race" class="form-control">
+
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <label>ตำหนิที่เห็นได้ชัดเจน</label>
+                <input type="text" name="my_scar" id="my_scar" class="form-control" placeholder="ตย. : ลายสักที่แขน">
+              </div>
+            </div>
+
+            <hr class="hr-primary">
+
+            <!--=================================================================-->
+
+            <div class="form-row">
+              <div class="col-sm-3">
+                <label>หมายเลขบัตรประจำตัวประชาชน</label>
+                <input type="text" name="my_ID_card" id="my_ID_card" class="form-control" maxlength="13">
+              </div>
+              <div class="col-sm-3">
+                <label>วันออกบัตร</label>
+                <input type="date" name="my_expried_date" id="my_expried_date" class="form-control">
+              </div>
+              <div class="col-sm-3">
+                <label>วันหมดอายุ</label>
+                <input type="date" name="my_expried_date" id="my_expried_date" class="form-control">
+              </div>
+              <div class="col-sm-3">
+                <label>ออกให้ ณ จังหวัด</label>
+                <select class="custom-select btn-outline-primar province3" name="my_issued_province" id="my_issued_province"></select>
+              </div>
+              <div class="col-sm-3">
+                <label>อำเภอ</label>
+                <select class="custom-select btn-outline-primar district3" name="my_issued_at" id="my_issued_at"></select>
+              </div>
+            </div>
+
+            <hr class="hr-primary">
+
+            <!--======================================================================-->
+
+
+            <label>ที่อยู่ตามบัตรประชาชน</label>
+
+            <div class="form-row">
+              <div class="col-sm-3">
+                <label>บ้านเลขที่</label>
+                <input type="text" name="re_house_code" id="re_house_code" class="form-control">
+              </div>
+              <div class="col-sm-3">
+                <label>หมู่ที่</label>
+                <input type="text" name="re_village_code" id="re_village_code" class="form-control">
+              </div>
+
+              <div class="col-sm-3">
+                <label>ตรอก/ซอย</label>
+                <input type="text" name="re_village" id="re_village" class="form-control">
+              </div>
+              <div class="col-sm-3">
+                <label>ถนน</label>
+                <input type="text" name="re_road" id="re_road" class="form-control">
+              </div>
+            </div>
+
+
+
+
+
+            <div class="form-row">
+              <div class="col-sm-3">
+                <label>จังหวัด</label>
+                <select class="province custom-select btn-outline-primar" name="re_province" id="re_province"></select>
+              </div>
+
+              <div class="col-sm-3">
+                <label>อำเภอ/เขต</label>
+                <select class="district custom-select btn-outline-primar" name="re_area" id="re_area"></select>
+              </div>
+
+              <div class="col-sm-3">
+                <label>ตำบล/แขวง</label>
+                <select class="subdistrict custom-select btn-outline-primar" name="re_sub_district" id="re_sub_district "></select>
+              </div>
+
+              <div class="col-sm-3">
+                <label>หมายเลขไปรษณีย์</label>
+                <input type="text" class="form-control zipcode" name="re_postal_code" id="re_postal_code">
+              </div>
+            </div>
+
+
+
+            <hr class="hr-primary">
+
+            <!--===============================================================================-->
+
+
+
+
+            <label>ที่อยู่ปัจจุบัน</label>
+
+            <div class="form-row">
+              <div class="col-sm-3">
+                <label>บ้านเลขที่</label>
+                <input type="text" name="pr_house_code" id="pr_house_code" class="form-control">
+              </div>
+              <div class="col-sm-3">
+                <label>หมู่ที่</label>
+                <input type="text" name="pr_village_code" id="pr_village_code" class="form-control">
+              </div>
+              <div class="col-sm-3">
+                <label>ตรอก/ซอย</label>
+                <input type="text" name="pr_village" id="pr_village" class="form-control">
+              </div>
+              <div class="col-sm-3">
+                <label>ถนน</label>
+                <input type="text" name="pr_road" id="pr_road" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="col-sm-3">
+                <label>จังหวัด</label>
+                <select class="province2 custom-select btn-outline-primar" name="pr_province" id="pr_province"></select>
+              </div>
+
+              <div class="col-sm-3">
+                <label>อำเภอ/เขต</label>
+                <select class="district2 custom-select btn-outline-primar" name="pr_area" id="pr_area"></select>
+              </div>
+
+              <div class="col-sm-3">
+                <label>ตำบล/แขวง</label>
+                <select class="subdistrict2 custom-select btn-outline-primar" name="pr_sub_district" id="pr_sub_district"></select>
+              </div>
+
+              <div class="col-sm-3">
+                <label>หมายเลขไปรษณีย์</label>
+                <input type="text" class="form-control zipcode2" name="pr_postal_code" id="pr_postal_code">
+              </div>
+            </div>
+
+
+            <div class="form-row">
+              <div class="col-sm-3">
+                <label>สถานที่ใกล้เคียงที่เด่นชัด</label>
+                <input type="text" name="posi_neigh" id="posi_neigh" class="form-control">
+              </div>
+              <div class="col-sm-3">
+                <label>เบอร์โทรที่สามารถติดต่อได้</label>
+                <input type="text" name="my_tel" id="my_tel" class="form-control">
+              </div>
+            </div>
+
+
+            <label>บ้านที่พักอยู่ในปัจจุบัน</label>
+            <div class="select">
+              <select class="custom-select col-sm-3" id="parent_house" name="parent_house" data-action="toggle">
+                <option hidden>-- กรุณาเลือก --</option>
+                <option value="ตนเอง">ตนเอง</option>
+                <option value="ของญาติ">ของญาติ</option>
+                <option value="หอพัก">หอพัก-บ้านเช่า</option>
+                <option value="ของคนรู้จัก">ของคนรู้จัก</option>
+                <option value="อาศัยผู้อื่น">อาศัยผู้อื่น</option>
+              </select>
+            </div>
+
+            <div class="parent_house" style=" display: none;">
+              <label for="other_house" value="โปรดระบุ">โปรดระบุ</label>
+              <input id="other_house" class="form-control  col-sm-3" name="other_house" type="text" />
+            </div>
+
+
+            <hr class="hr-primary">
+
+            <label>สถานะสมรส</label>
+            <div class="select">
+              <select class="custom-select col-sm-3" id="my_marrital_status" name="my_marrital_status">
+                <option hidden>-- กรุณาเลือก --</option>
+                <option id="single" value="โสด">โสด</option>
+                <option id="married" value="สมรส">สมรส</option>
+                <option id="single" value="หย่า">หย่า</option>
+                <option id="single" value="แยกกันอยู่">แยกกันอยู่</option>
+                <option id="single" value="หม้าย">หม้าย</option>
+              </select>
+            </div>
+
+
+            <div class="my_marrital_status" style=" display: none;">
+              <label class="available">กรณีสมรสแล้วคู่สมรสมีรายได้หรือไม่</label>
+              <div class="form-row">
+                <div class="custom-control custom-radio">
+                  <input id="marry1" class="custom-control-input marry" name="marry" type="radio" value="มี" />
+                  <label for="marry1" class="custom-control-label">มี</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input id="marry2" class="custom-control-input marry" name="marry" type="radio" value="ไม่มี">
+                  <label for="marry2" class="custom-control-label">ไม่มี</label>
+                </div>
+              </div>
+
+              <label>คู่สมรส</label>
+              <div class="form-row">
+                <div class="col-sm-3">
+                  <label>คำนำหน้าชื่อ</label>
+                  <div class="select">
+                    <select class="custom-select" name="wi_title" id="wi_title">
+                      <option hidden>-- กรุณาเลือก --</option>
+                      <option id="wi_male" value="นาย">นาย</option>
+                      <option id="wi_female" value="นาง">นาง</option>
+                      <option id="wi_other" value="นางสาว">นางสาว</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <label>ชื่อ</label>
+                  <input type="text" class="form-control" id="wi_Fname" name="wi_Fname">
+                </div>
+                <div class="col-sm-3">
+                  <label>นามสกุล</label>
+                  <input type="text" name="wi_Lname" id="wi_Lname" class="form-control">
+                </div>
+                <div class="col-sm-3">
+                  <label>อายุ</label>
+                  <input type="number" name="wi_age" id="wi_age" class="form-control">
+                </div>
+              </div>
+
+
+              <div class="form-row">
+                <div class="col-sm-3">
+                  <label>อาชีพ</label>
+                  <input type="text" name="wi_Occ" id="wi_Occ" class="form-control">
+                </div>
+                <div class="col-sm-3">
+                  <label>สถานที่ทำงาน </label>
+                  <input type="text" name="wi_place" id="wi_place" class="form-control">
+                </div>
+                <div class="col-sm-3">
+                  <label>
+                    เบอร์โทร
+                  </label>
+                  <input type="text" name="wi_tel" id="wi_tel" class="form-control">
+                </div>
+              </div>
+            </div>
+
+            <hr class="hr-primary">
+
+
+           
+
+            <button type="submit" id="btn_next" class="button"><span>ต่อไป &#8594;</span>
+
+          </fieldset>
+      
+      </form>
+    </div>
+  </div>
+
+
+  <script src="getParamsFromUrl.js"></script>
+  <script src="getDataStorageForm1.js"></script>
+
+  <script>
+    $(document).ready(function () {
+
+      if (!edit) {
+        $("#form1").submit(function () {
+          $("#form1").attr("action", "form2.html");
+          setSessionStorage();
+        });
+      } else {
+        $("#form1").submit(function () {
+          setSessionStorage();
+          $("#form1").attr("action", "data.html?edit-success=index");
+        });
+      }
+
+      function setSessionStorage() {
+        sessionStorage.news = $("#news").val();
+        sessionStorage.position1 = $("#position1").val();
+        sessionStorage.position2 = $("#position2").val();
+
+        sessionStorage.my_salary_want = $("#my_salary_want").val();
+        sessionStorage.my_date_readywork = $("#my_date_readywork").val();
+        sessionStorage.my_date_regis = $("#my_date_regis").val();
+
+        sessionStorage.my_title = $("#my_title").val();
+        sessionStorage.my_Fname = $("#my_Fname").val();
+        sessionStorage.my_Lname = $("#my_Lname").val();
+        sessionStorage.gender = $("#gender").val();
+
+
+
+        sessionStorage.sol_affilia = $("#sol_affilia").val();
+        sessionStorage.sol_where = $("#sol_where").val();
+        sessionStorage.sol_date = $("#sol_date").val();
+        sessionStorage.year_drafted = $("#year_drafted").val();
+        sessionStorage.exam_except = $("#exam_except").val();
+
+        sessionStorage.my_birth_date = $("#my_birth_date").val();
+        sessionStorage.my_age = $("#my_age").val();
+        sessionStorage.my_height = $("#my_height").val();
+        sessionStorage.my_weight = $("#my_weight").val();
+
+        sessionStorage.my_religion = $("#my_religion").val();
+        sessionStorage.nationality = $("#nationality").val();
+        sessionStorage.race = $("#race").val();
+
+
+        sessionStorage.my_scar = $("#my_scar").val();
+        sessionStorage.my_body = $("#my_body").val();
+        sessionStorage.my_skin = $("#my_skin").val();
+        sessionStorage.my_blood_group = $("#my_blood_group").val();
+        sessionStorage.my_ID_card = $("#my_ID_card").val();
+        sessionStorage.my_expried_date = $("#my_expried_date").val();
+        sessionStorage.my_issued_at = $("#my_issued_at").val();
+        sessionStorage.my_issued_province = $("#my_issued_province").val();
+
+        sessionStorage.re_house_code = $("#re_house_code").val();
+        sessionStorage.re_village_code = $("#re_village_code").val();
+        sessionStorage.re_village = $("#re_village").val();
+        sessionStorage.re_road = $("#re_road").val();
+        sessionStorage.re_province = $("#re_province").val();
+        sessionStorage.re_area = $("#re_area").val();
+        sessionStorage.re_sub_district = $("#re_sub_district").val();
+        sessionStorage.re_postal_code = $("#re_postal_code").val();
+
+        sessionStorage.pr_house_code = $("#pr_house_code").val();
+        sessionStorage.pr_village_code = $("#pr_village_code").val();
+        sessionStorage.pr_village = $("#pr_village").val();
+        sessionStorage.pr_road = $("#pr_road").val();
+        sessionStorage.pr_sub_district = $("#pr_sub_district").val();
+        sessionStorage.pr_area = $("#pr_area").val();
+        sessionStorage.pr_province = $("#pr_province").val();
+        sessionStorage.pr_postal_code = $("#pr_postal_code").val();
+
+        sessionStorage.posi_neigh = $("#posi_neigh").val();
+        sessionStorage.my_tel = $("#my_tel").val();
+
+        sessionStorage.parent_house = $("#parent_house").val();
+        sessionStorage.my_marrital_status = $("#my_marrital_status").val();
+
+        sessionStorage.other_house = $("#other_house").val();
+
+
+        sessionStorage.wi_title = $("#wi_title").val();
+        sessionStorage.wi_Fname = $("#wi_Fname").val();
+        sessionStorage.wi_Lname = $("#wi_Lname").val();
+
+        sessionStorage.wi_age = $("#wi_age").val();
+        sessionStorage.wi_Occ = $("#wi_Occ").val();
+        sessionStorage.wi_place = $("#wi_place").val();
+        sessionStorage.wi_tel = $("#wi_tel").val();
+
+
+        sessionStorage.imageprev = $("#imageprev").val();
+        sessionStorage.basic_url = $("#basic_url").val();
+        sessionStorage.img_upload = $("#img_upload").val();
+
+
+        //แต่งงาน===========================================================================================
+
+        if ($("#marry1").is(':checked')) {
+          sessionStorage.marry = $("#marry1").val();
+        } else if ($("#marry2").is(':checked')) {
+          sessionStorage.marry = $("#marry2").val();
+        }
+
+
+        var marry = sessionStorage.getItem('marry');
+        if (marry == 'ดี') {
+          $("#marry1").attr('checked', 'checked');
+        } else if (marry == 'พอใช้') {
+          $("#marry2").attr('checked', 'checked');
+        }
+
+
+        //ถ่ายรูป===========================================================================================
+
+        if ($("#load_image1").is(':checked')) {
+          sessionStorage.load_image = $("#load_image1").val();
+        } else if ($("#load_image2").is(':checked')) {
+          sessionStorage.load_image = $("#load_image2").val();
+        }
+
+
+        var load_image = sessionStorage.getItem('load_image');
+        if (load_image == 'อัพโหลดรูปภาพ') {
+          $("#load_image1").attr('checked', 'checked');
+
+        } else if (load_image == 'ถ่ายภาพจากกล้อง') {
+          $("#load_image2").attr('checked', 'checked');
+        }
+
+        //ทหาร===========================================================================================
+
+        if ($("#soldier1").is(':checked')) {
+          sessionStorage.soldier = $("#soldier1").val();
+        } else if ($("#soldier2").is(':checked')) {
+          sessionStorage.soldier = $("#soldier2").val();
+        }
+
+
+        var soldier = sessionStorage.getItem('soldier');
+        if (soldier == 'เคย') {
+          $("#soldier1").attr('checked', 'checked');
+        } else if (soldier == 'ไม่เคย') {
+          $("#soldier2").attr('checked', 'checked');
+        }
+
+        //บวช===========================================================================================
+
+        if ($("#monkhood1").is(':checked')) {
+          sessionStorage.monkhood = $("#monkhood1").val();
+        } else if ($("#monkhood2").is(':checked')) {
+          sessionStorage.monkhood = $("#monkhood2").val();
+        }
+
+
+        var monkhood = sessionStorage.getItem('monkhood');
+        if (monkhood == 'อุปสมบทแล้ว') {
+          $("#monkhood1").attr('checked', 'checked');
+        } else if (monkhood == 'ยังไม่เคยอุปสมบท') {
+          $("#monkhood2").attr('checked', 'checked');
+        }
+
+
+
+        //===================================================================================================
+
+
+        img_upload = document.getElementById('img_upload');
+        imgData = getBase64Image(img_upload);
+        sessionStorage.setItem("imgData", imgData);
+
+
+        function getBase64Image(img) {
+          var canvas = document.createElement("canvas");
+          canvas.width = img.width;
+          canvas.height = img.height;
+
+
+
+          var ctx = canvas.getContext("2d");
+          ctx.drawImage(img, 0, 0);
+          canvas.style.width = "100%";
+          canvas.style.height = "100%";
+
+          var dataURL = canvas.toDataURL("image/jqg");
+
+          return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+        }
+      }
+
+    });
+  </script>
+
+
+
+  <script>
+    var my_title = jQuery('#my_title');
+    my_title.change(function () {
+      if ($(this).val() == 'นาย') {
+        $('.box').show("slow");
+      } else $('.box').hide("slow");
+    });
+
+    var parent_house = jQuery('#parent_house');
+    parent_house.change(function () {
+      if ($(this).val() == 'อาศัยผู้อื่น') {
+        $('.parent_house').show("slow");
+      } else $('.parent_house').hide("slow");
+    });
+
+    var my_marrital_status = jQuery('#my_marrital_status');
+    my_marrital_status.change(function () {
+      if ($(this).val() == 'สมรส') {
+        $('.my_marrital_status').show("slow");
+      } else $('.my_marrital_status').hide("slow");
+    });
+
+    var soldier = jQuery('.soldier');
+    soldier.change(function () {
+      if ($(this).val() == 'เคย') {
+        $('.soldier_ever').show("slow");
+        $('.soldier_never').hide("slow");
+      } else if ($(this).val() == 'ไม่เคย') {
+        $('.soldier_never').show("slow");
+        $('.soldier_ever').hide("slow");
+      }
+    });
+
+
+    var load_image = jQuery('.load_image');
+    load_image.change(function () {
+      if ($(this).val() == 'อัพโหลดรูปภาพ') {
+        $('.upload_img').show("slow");
+        $('.take_snapshot').hide("slow");
+      } else if ($(this).val() == 'ถ่ายภาพจากกล้อง') {
+        $('.take_snapshot').show("slow");
+        $('.upload_img').hide("slow");
+      }
+    });
+  </script>
+
+
+  <script>
+    $(function () {
+
+      $.thprovinceset({
+        /*กำหนด class ของ DROPDOWN*/
+        eProvinceID: '.province',
+        eDistrictID: '.district',
+        eSubDistrictID: '.subdistrict',
+        eZipcode: '.zipcode',
+        /*กำหนดค่าให้ Dropdown*/
+        SelectProvince: "",
+        /*10 = กรุงเทพฯ*/
+        SelectDistrict: "",
+        SelectSubDistrict: "",
+      });
+    });
+
+    $(function () {
+      $.thprovinceset({
+        /*กำหนด ID ของ DROPDOWN*/
+        eProvinceID: '.province2',
+        eDistrictID: '.district2',
+        eSubDistrictID: '.subdistrict2',
+        eZipcode: '.zipcode2',
+        /*กำหนดค่าให้ Dropdown*/
+        SelectProvince: "",
+        /*10 = กรุงเทพฯ*/
+        SelectDistrict: "",
+        SelectSubDistrict: "",
+      });
+    });
+
+    $(function () {
+      $.thprovinceset({
+        /*กำหนด ID ของ DROPDOWN*/
+        eProvinceID: '.province3',
+        eDistrictID: '.district3',
+        eSubDistrictID: '.subdistrict3',
+        eZipcode: '.zipcode3',
+        /*กำหนดค่าให้ Dropdown*/
+        SelectProvince: "",
+        /*10 = กรุงเทพฯ*/
+        SelectDistrict: "",
+        SelectSubDistrict: "",
+      });
+    });
+  </script>
+
+</body>
+
+</html>

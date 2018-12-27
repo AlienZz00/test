@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>เว็ปไซต์สมัครงาน</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <link href='../src/vendor/normalize.css/normalize.css' rel='stylesheet'>
+    <link href='../src/vendor/fontawesome/css/font-awesome.min.css' rel='stylesheet'>
+    <link href="../dist/vertical-responsive-menu.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="public/stylesheets/main.css">
+    <link rel="stylesheet" href="public/stylesheets/style-table.css">
+    <link rel="stylesheet" href="public/stylesheets/validationEngine.jquery.css" />
+
+
+</head>
+
+<!-- bootstrap -->
+<script src="public/javascripts/jquery-3.3.1.min"></script>
+<script src="public/javascripts/bootstrap.min.js"></script>
+<script src="public/javascripts/bootstrap.min.js.map"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js"></script>
+<script src="public/javascripts/bootstrap.bundle.min.js.map"></script>
+
+<script src="../dist/vertical-responsive-menu.min.js"></script>
+
+
+
+
+
+
+<script src="public/javascripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="public/javascripts/jquery.validationEngine-th.js" type="text/javascript" charset="utf-8"></script>
+<script src="public/javascripts/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+<script src="../dist/vertical-responsive-menu.min.js"></script>
+
+
+<script src="public/javascripts/jsTable.js"></script>
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+    /*! Fades in page on load */
+    $('body').css('display', 'none');
+    $('body').fadeIn(800);
+  });
+</script>
+
+
+<script>
+    $(document).ready(function(){
+        $("#Form1,#Form2,#Form3,#Form4,#Form5,#Form6,#Form9,#Form10").validationEngine();
+       });
+</script>
+
+<style>
+    @font-face {
+                  font-family: 'Athiti';
+                  src: url(public/font/Athiti-semibold.ttf);
+              }
+        </style>
+
+<body>
+    <header class="header clearfix">
+        <button type="button" id="toggleMenu" class="toggle_menu">
+            <i class="fa fa-bars"></i>
+        </button>
+        <h1>เว็ปไซต์สมัครงาน</h1>
+    </header>
+
+    <nav class="vertical_nav">
+        <ul id="js-menu" class="menu">
+
+            <li class="menu--item">
+                <a href="index.html" class="menu--link">
+                    <img src="public/stylesheets/png/009-one.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">ประวัติส่วนตัว</strong>
+
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form2.html" class="menu--link">
+                    <img src="public/stylesheets/png/008-two.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">รายละเอียดครอบครัว</strong>
+
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form3.html" class="menu--link">
+                    <img src="public/stylesheets/png/007-three.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">ประวัติการศึกษา</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form4.html" class="menu--link">
+                    <img src="public/stylesheets/png/006-four.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">ประวัติการทำงาน/ประวัตการฝึกอบรม</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form5.html" class="menu--link" id="nav-form5">
+                    <img src="public/stylesheets/png/005-five.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">ความสามในการใช้ภาษาต่างประเทศ <br> และคอมพิวเตอร์</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form6.html" class="menu--link">
+                    <img src="public/stylesheets/png/004-six.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">บุคคลที่ติดต่อได้โดยไม่ใช่ญาติพี่น้อง</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form9.html" class="menu--link">
+                    <img src="public/stylesheets/png/003-seven.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">สุขภาพ</strong>
+                </a>
+            </li>
+            <li class="menu--item">
+                <a href="form10.html" class="menu--link">
+                    <img src="public/stylesheets/png/002-eight.png" width="25" height="25" class="menu--icon">
+                    <strong class="menu--label">รายละเอียดอื่นๆ</strong>
+                </a>
+            </li>
+        </ul>
+
+        <button id="collapse_menu" class="collapse_menu">
+            <i class="collapse_menu--icon  fa fa-fw"></i>
+            <span class="collapse_menu--label">ซ่อนแถบเมนู</span>
+        </button>
+
+    </nav>
+
+
+    <div class="wrapper">
+        <div class="container_PA">
+            <form method="POST" id="form10" class="needs-validation" novalidate>
+
+                <fieldset>
+
+                    <div class="table100 ver5 m-b-110 ">
+                        <table data-vertable="ver5">
+                            <thead>
+                                <tr class="row100 head head1">
+                                    <th class="" data-column="column1">รายละเอียดอื่นๆ</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>ท่านสมัครงานในบริษัทฯ นี้เป็นครั้งแรกหรือไม่</label>
+                        <div class="form-row">
+                            <div class="custom-control custom-radio">
+                                <input id="first_regis1" type="radio" class="custom-control-input first_regis" name="first_regis"
+                                    value="ใช่">
+                                <label for="first_regis1" class="custom-control-label">ใช่</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="first_regis2" type="radio" class="custom-control-input first_regis" name="first_regis"
+                                    value="ไม่ใช่">
+                                <label for="first_regis2" class="custom-control-label">ไม่ใช่</label>
+                            </div>
+
+                            <div class="first_regis" style="display:none;">
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">เป็นครั้งที่</span>
+                                    </div>
+                                    <input type="number" name="first_regis3" id="first_regis3" class="form-control"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr class="hr-primary">
+
+                    <div class="form-group">
+                        <label>ท่านสามารถออกต่างจังหวัด ได้หรือไม่</label>
+                        <div class="form-row">
+                            <div class="custom-control custom-radio">
+                                <input id="outside1" type="radio" class="custom-control-input outside" name="outside"
+                                    value="ได้">
+                                <label for="outside1" class="custom-control-label">ได้</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="outside2" class="custom-control-input outside" name="outside" type="radio"
+                                    value="ไม่ได้">
+                                <label for="outside2" class="custom-control-label">ไม่ได้</label>
+                            </div>
+
+
+                            <div class="outside" style="display:none;">
+                                <div class="input-group mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">เพราะ</span>
+                                    </div>
+                                    <input type="number" name="outside3" id="outside3" class="form-control"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="hr-primary">
+
+                    <div class="form-group">
+                        <label>ท่านมีญาติ หรือเพื่อนในบริษัทฯนี้หรือไม่</label>
+                        <div class="form-row">
+                            <div class="custom-control custom-radio">
+                                <input id="acquain1" type="radio" class="custom-control-input acquain" name="acquain"
+                                    value="มี">
+                                <label for="acquain1" class="custom-control-label">มี</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="acquain2" class="custom-control-input acquain" name="acquain" type="radio"
+                                    value="ไม่มี">
+                                <label for="acquain2" class="custom-control-label">ไม่มี</label>
+                            </div>
+                        </div>
+
+                        <div class="acquain" style="display:none;">
+                            <div class="form-row">
+                                <div class="col-sm-3">
+                                    <label>ชื่อ-นามสกุล</label>
+                                    <input type="text" name="acquain_name" id="acquain_name" class="form-control">
+                                </div>
+                                <div class="col-sm-3">
+                                    <label>ความสัมพันธ์ </label>
+                                    <div class="form-holder">
+                                        <input type="text" name="acquain_rela" id="acquain_rela" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <label>หน่วยงาน </label>
+                                    <div class="form-holder">
+                                        <input type="text" name="acquain_depart" id="acquain_depart" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-sm-3">
+                                    <label>ชื่อ-นามสกุล</label>
+                                    <input type="text" name="acquain_name2" id="acquain_name2" class="form-control">
+                                </div>
+                                <div class="col-sm-3">
+                                    <label>ความสัมพันธ์ </label>
+                                    <div class="form-holder">
+                                        <input type="text" name="acquain_rela2" id="acquain_rela2" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <label>หน่วยงาน </label>
+                                    <div class="form-holder">
+                                        <input type="text" name="acquain_depart2" id="acquain_depart2" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="hr-primary">
+
+                    <div class="form-group">
+                        <label>ท่านเคยถูกจำคุกหรือต้องคำพิพากษาถึงที่สุดในคดีอาญาหรือไม่</label>
+                        <div class="form-row">
+                            <div class="custom-control custom-radio">
+                                <input id="prison1" type="radio" class="custom-control-input prison" name="prison"
+                                    value="เคย">
+                                <label for="prison1" class="custom-control-label">เคย</label>
+                            </div>
+
+                            <div class="custom-control custom-radio">
+                                <input id="prison2" class="custom-control-input prison" name="prison" type="radio"
+                                    value="ไม่เคย">
+                                <label for="prison2" class="custom-control-label">ไม่เคย</label>
+                            </div>
+
+                            <div class="prison" style="display:none;">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">เนื่องจาก</span>
+                                    </div>
+                                    <input type="text" name="prison3" id="prison3" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="hr-primary">
+
+                    <div class="form-group">
+                        <label>ปัจจุบันท่านเป็นสมาชิกชมรมหรือสมาคมหรือไม่</label>
+                        <div class="form-row">
+                            <div class="custom-control custom-radio">
+                                <input id="my_club1" type="radio" class="custom-control-input my_club" name="my_club"
+                                    value="เป็น">
+                                <label for="my_club1" class="custom-control-label">เป็น</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="my_club2" class="custom-control-input my_club" name="my_club" type="radio"
+                                    value="ไม่เป็น">
+                                <label for="my_club2" class="custom-control-label">ไม่เป็น</label>
+                            </div>
+
+                            <div class="my_club" style="display:none;">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">ชมรม/สมาคม</span>
+                                    </div>
+                                    <input type="text" name="my_club3" id="my_club3" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <hr class="hr-primary">
+
+
+                    <div class="table100 ver5">
+                        <table class="hide-columns responsive-table" data-vertable="ver5">
+                            <thead>
+                                <tr class="row100">
+                                    <th scope="col">สวัสดิการอื่นจากทีทำงานปัจจุบันล่าสุดต่อเดือน</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr class="row100">
+                                    <td>เงินโบนัส</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input name="my_bonus" id="my_bonus" type="number" class="form-control col-sm-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2">บาท</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+
+                                <tr class="row100">
+                                    <td>เงินกองทุนสำรองเลี้ยงชีพ</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input name="my_reserve" id="my_reserve" type="number" class="form-control col-sm-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2">บาท</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td class=" data-column=" column1">ค่ารักษาพยาบาล</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input name="my_medical" id="my_medical" type="number" class="form-control col-sm-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2">บาท</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td class=" data-column=" column1">ประกันชีวิต</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input name="Life_insurance" id="Life_insurance" type="number" class="form-control col-sm-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2">บาท</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td class=" data-column=" column1">ค่าตำแหน่ง</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input name="Position_value" id="Position_value" type="number" class="form-control col-sm-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2">บาท</span>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                                <tr class="row100">
+                                    <td class=" data-column=" column1">ค่าพาหนะ</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input name="traveling_expen" id="traveling_expen" type="number" class="form-control col-sm-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2">บาท</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td class=" data-column=" column1">ค่าครองชีพ/เบี้ยขยัน</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input name="diligence" id="diligence" type="number" class="form-control col-sm-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2">บาท</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="row100">
+                                    <td class=" data-column=" column1">เงินช่วยเหลือ/อื่นๆ</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <input name="Subsidy" id="Subsidy" type="number" class="form-control col-sm-3">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2">บาท</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                    <button type="submit" id="btn_next" class="button"><span>ต่อไป &#8594;</span>
+
+                </fieldset>
+        </div>
+        </form>
+    </div>
+
+
+    <script src="getParamsFromUrl.js"></script>
+    <script src="getDataStorageForm10.js"></script>
+    <script>
+        // Form10 ==================================================================
+        var first_regis = jQuery('.first_regis');
+        first_regis.change(function () {
+            if ($(this).val() == 'ไม่ใช่') {
+                $('.first_regis').show("slow");
+            } else if ($(this).val() == 'ใช่') {
+                $('.first_regis').hide("slow");
+            }
+        });
+
+        var outside = jQuery('.outside');
+        outside.change(function () {
+            if ($(this).val() == 'ไม่ได้') {
+                $('.outside').show("slow");
+            } else if ($(this).val() == 'ได้') {
+                $('.outside').hide("slow");
+            }
+        });
+
+        var acquain = jQuery('.acquain');
+        acquain.change(function () {
+            if ($(this).val() == 'มี') {
+                $('.acquain').show("slow");
+            } else if ($(this).val() == 'ไม่มี') {
+                $('.acquain').hide("slow");
+            }
+        });
+
+        var prison = jQuery('.prison');
+        prison.change(function () {
+            if ($(this).val() == 'เคย') {
+                $('.prison').show("slow");
+            } else if ($(this).val() == 'ไม่เคย') {
+                $('.prison').hide("slow");
+            }
+        });
+
+        var my_club = jQuery('.my_club');
+        my_club.change(function () {
+            if ($(this).val() == 'เป็น') {
+                $('.my_club').show("slow");
+
+            } else if ($(this).val() == 'ไม่เป็น') {
+                $('.my_club').hide("slow");
+            }
+        });
+
+        $(document).ready(function () {
+
+            if (!edit) {
+                $("#form10").submit(function () {
+                    $("#form10").attr("action", "data.html");
+                    setSessionStorage();
+                });
+            } else {
+                $("#form10").submit(function () {
+                    setSessionStorage();
+                    $("#form10").attr("action",
+                        "data.html?edit-success=form10");
+                });
+            }
+
+            function setSessionStorage() {
+                if ($("#first_regis1").is(':checked')) {
+                    sessionStorage.first_regis = $("#first_regis1").val();
+                } else if ($("#first_regis2").is(':checked')) {
+                    sessionStorage.first_regis = $("#first_regis2").val();
+                }
+
+
+                if ($("#outside1").is(':checked')) {
+                    sessionStorage.outside = $("#outside1").val();
+                } else if ($("#outside2").is(':checked')) {
+                    sessionStorage.outside = $("#outside2").val();
+                }
+
+                if ($("#serious_sickness1").is(':checked')) {
+                    sessionStorage.serious_sickness = $("#serious_sickness1").val();
+                } else if ($("#serious_sickness2").is(':checked')) {
+                    sessionStorage.serious_sickness = $("#serious_sickness2").val();
+                }
+
+
+                if ($("#acquain1").is(':checked')) {
+                    sessionStorage.acquain = $("#acquain1").val();
+                } else if ($("#acquain2").is(':checked')) {
+                    sessionStorage.acquain = $("#acquain2").val();
+                }
+
+                if ($("#prison1").is(':checked')) {
+                    sessionStorage.prison = $("#prison1").val();
+                } else if ($("#prison2").is(':checked')) {
+                    sessionStorage.prison = $("#prison2").val();
+                }
+
+
+                if ($("#my_club1").is(':checked')) {
+                    sessionStorage.my_club = $("#my_club1").val();
+                } else if ($("#my_club2").is(':checked')) {
+                    sessionStorage.my_club = $("#my_club2").val();
+                }
+
+
+
+                sessionStorage.first_regis3 = $("#first_regis3").val();
+                sessionStorage.outside3 = $("#outside3").val();
+                sessionStorage.acquain_name = $("#acquain_name").val();
+                sessionStorage.acquain_rela = $("#acquain_rela").val();
+                sessionStorage.acquain_depart = $("#acquain_depart").val();
+                sessionStorage.acquain_name2 = $("#acquain_name2").val();
+                sessionStorage.acquain_rela2 = $("#acquain_rela2").val();
+                sessionStorage.acquain_depart2 = $("#acquain_depart2").val();
+                sessionStorage.prison3 = $("#prison3").val();
+                sessionStorage.my_club3 = $("#my_club3").val();
+
+
+                sessionStorage.my_bonus = $("#my_bonus").val();
+                sessionStorage.my_reserve = $("#my_reserve").val();
+                sessionStorage.my_medical = $("#my_medical").val();
+                sessionStorage.Life_insurance = $("#Life_insurance").val();
+                sessionStorage.Position_value = $("#Position_value").val();
+                sessionStorage.traveling_expen = $("#traveling_expen").val();
+                sessionStorage.diligence = $("#diligence").val();
+                sessionStorage.Subsidy = $("#Subsidy").val();
+            }
+        });
+    </script>
+</body>
+
+</html>
